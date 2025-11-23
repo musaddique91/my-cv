@@ -12,10 +12,9 @@ export default function Resume() {
           target="_blank"
           rel="noopener noreferrer"
           download
-          className="absolute top-4 right-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all hover:scale-105 z-50"
+          className="absolute top-4 right-4 bg-green-600 hover:bg-blue-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all hover:scale-105 z-50"
         >
-          <Download className="w-5 h-5" />
-          <span className="font-semibold">Download PDF</span>
+          <Download className="w-5 h-5" />          
         </a>
 
         {/* Header */}
